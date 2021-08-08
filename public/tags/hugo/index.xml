@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Antoine&#39;s blog</title>
+    <link>https://twan.io/tags/hugo/</link>
+    <description>Recent content in hugo on Antoine&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://twan.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy a website with Cloudflare Pages and Hugo</title>
+      <link>https://twan.io/post/deploy_a_website_with_cloudflare_pages_and_hugo/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://twan.io/post/deploy_a_website_with_cloudflare_pages_and_hugo/</guid>
+      <description>A good start for my blog would be a post where I would explain how I set-up this site,
+Options for hosting a static (Hugo) website So why Cloudflare pages?  Free Free traffic (nice for imagges) Can add my own domain  The setup of Cloudflare pages  For extra variable add: HUGO_VERSION = 0.80.0  </description>
+    </item>
+    
+  </channel>
+</rss>

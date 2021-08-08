@@ -3,9 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://twan.io/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://twan.io/categories/</loc>
+    <loc>https://twan.io/tags/cloudflare/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/post/deploy_a_website_with_cloudflare_pages_and_hugo/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/tags/home-assistant/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/tags/hugo/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/post/installing_and_hands_on_with_home_assistant_slimme_lezer/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/post/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/tags/smart-home/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://twan.io/tags/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://twan.io/categories/</loc>
   </url>
 </urlset>

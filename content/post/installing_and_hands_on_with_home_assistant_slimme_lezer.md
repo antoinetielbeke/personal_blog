@@ -41,3 +41,4 @@ After reading [this](https://tweakers.net/nieuws/185228/home-assistant-brengt-en
 
 ## Setting up the Slimme lezer
 Bla bla bla
+
