@@ -17,7 +17,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -40,5 +40,7 @@ After reading [this](https://tweakers.net/nieuws/185228/home-assistant-brengt-en
 
 
 ## Setting up the Slimme lezer
-Bla bla bla
-
+Soon after you connect the Slimme Lezer to power, it should pop us as Wi-Fi network. You can just connect to it and the configuration page will pop up automatically, (otherwise just browse to `192.168.4.1`).
+![slimmelezer_pops_us_as_wifi](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/wifi.png#center)
+![sdasdasdas](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/device_discovered.png#center)
+![test](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/web_ui.PNG#center)
