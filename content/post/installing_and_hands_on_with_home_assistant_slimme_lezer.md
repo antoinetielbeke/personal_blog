@@ -32,7 +32,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-After reading [this](https://tweakers.net/nieuws/185228/home-assistant-brengt-energiedashboard-en-hardware-uit-om-slimme-meter-te-lezen.html) article on a Dutch tech site I was immediately hooked, especially they announced [the 2021.8.0 update](https://www.home-assistant.io/blog/2021/08/04/release-20218/).
+After reading [this](https://tweakers.net/nieuws/185228/home-assistant-brengt-energiedashboard-en-hardware-uit-om-slimme-meter-te-lezen.html) article on a Dutch tech site I was immediately hooked, especially they announced [the 2021.8.0 update](https://www.home-assistant.io/blog/2021/08/04/release-20218/). Link to buy [the Slimmelezer](https://www.zuidwijk.com/product/slimmelezer/).
 
 ## The 2021.8.0 Home Assistant update
 
@@ -40,7 +40,18 @@ After reading [this](https://tweakers.net/nieuws/185228/home-assistant-brengt-en
 
 
 ## Setting up the Slimme lezer
-Soon after you connect the Slimme Lezer to power, it should pop us as Wi-Fi network. You can just connect to it and the configuration page will pop up automatically, (otherwise just browse to `192.168.4.1`).
+The first thing you need to do is connecting the Slimmelezer to your smart powermeter. You need the following
+  - Smart meter with DSMR: 2/3/4/5
+  - If you have a DSMR5 smartmeter, the power for the Slimmelezer can be provided through the RJ11 port. If its lower than DSMR 5, you'll need to power it by USB.
+
+I have a DSMR 4 smartmeter but I still tried to power it without micro-USB. I saw a light in the Slimmelezer light up after only connecting the RJ11 but it didn't show up on my Wi-Fi list. As soon as I connected the micro-usb, it worked properly. Soon after you connect the Slimme Lezer to power, it should pop us as Wi-Fi network. 
 ![slimmelezer_pops_us_as_wifi](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/wifi.png#center)
-![sdasdasdas](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/device_discovered.png#center)
-![test](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/web_ui.PNG#center)
+You can just connect to it and the configuration page will pop up automatically, (otherwise just browse to `192.168.4.1`).
+![slimmelezer_web_ui](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/web_ui.PNG#center)
+After you have connected it to your Wi-Fi, HomeAssistant should automatically discover the new device.
+![slimmelezer_discovered](/img/installing_and_hands_on_with_home_assistant_slimme_lezer/device_discovered.png#center)
+Now that the device is connected to your HomeAssistant, it should show up under "Integrations" as "slimmelezer-xxxxxx". Now you can go to your "Energy" tab and configure it as your energy source. I added the following entities to my "Grid consumption": `sensor.energy_consumed_tariff_1` and `sensor.energy_consumed_tariff_2`. If you go to your Energy dashboard now, it will likely say "Results will show in an hour or two". If you're wondering, it actually took and hour or two for me to show up. Now my dashboard is filled with colorful data.
+
+## Widgets I made using the energy entity
+The new barometer
+![barometer_energy](#)
