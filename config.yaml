@@ -1,4 +1,4 @@
-baseURL: "https://twan.io"
+baseURL: "https://blog.twan.io"
 title: Antoine's blog
 paginate: 5
 theme: PaperMod
@@ -16,9 +16,9 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
+    title: Antoine's DevOps blog
     description: "ExampleSite description"
-    keywords: [Blog, Portfolio, PaperMod]
+    keywords: [Blog, Portfolio, Antoine Tielbeke,]
     author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -48,10 +48,10 @@ params:
     #     apple_touch_icon: "<link / abs url>"
     #     safari_pinned_tab: "<link / abs url>"
 
-    label:
-        text: "Home"
-        icon: /apple-touch-icon.png
-        iconHeight: 35
+    # label:
+    #     text: "Home"
+    #     icon: /apple-touch-icon.png
+    #     iconHeight: 35
 
     # home-info mode
     homeInfoParams:
