@@ -1,4 +1,4 @@
-baseURL: "blog.twan.io"
+baseURL: "https://blog.twan.io"
 title: Antoine's blog
 paginate: 5
 theme: PaperMod
