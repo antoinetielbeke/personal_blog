@@ -42,9 +42,9 @@ It looks something like this:
 5. Install all the software that I need (manually)
 6. Done!
 
-**ACKNOWLEDGEMENT** Whenever I say "all of your personal files" I mean all of the diretories that are specified in your File History settings.
+**ACKNOWLEDGEMENT** 1. Whenever I say "all of your personal files" I mean all of the diretories that are specified in your File History settings. 2. I am not responsible for any lost files, programs or whatever ;)  
 
-## Backing up all personal files with Windows File History
+## 💾 Backing up all personal files with Windows File History
 - not perfect back-up solution
 - Prefer veeam endpoint backup
 - perfect for upgrading though
@@ -52,7 +52,7 @@ It looks something like this:
 Open "File History or access it through the controlpanel with the following path: `Control Panel\All Control Panel Items\File History`
 Click Select `Select drive` and your avaiable disks for file history will show up. In my case, I have a NAS so I added it by clicking `Add network location`. 
 
-![bla](/img/upgrading_to_windows_11/select_network_drive.png#center)
+![selecting your network drive in file history](/img/upgrading_to_windows_11/select_network_drive.png#center)
 
 After I selected the drive I want to use for File History, it immediately starts backing up your personal files. This might take a while (for me, 300GB took about 2-3 hours).
 
@@ -64,10 +64,13 @@ I will not go too deep into explaining how to do this because there are plenty t
 
 ## Installing Windows 11 and nuking my disk
 
-## Restoring my personal files
-![restore_files](/img/upgrading_to_windows_11/restore_files.png#center)
-![replace_file](/img/upgrading_to_windows_11/replace_files.png#center)
+## ↩️ Restoring my personal files
+Open up File History and on the left menu click on `Restore personal files`. A new window will pop up and here you can see all of the folders on your back-up. Check if you have the most recent back-up (date is in the left top) and click on the big green restore button.
 
+![restore_files](/img/upgrading_to_windows_11/restore_files.png#center)
+It will ask you if you want to replace the files in the destination, click on `Replace the files in the destination`.
+![replace_file](/img/upgrading_to_windows_11/replace_files.png#center)
+This might take a while, I had 300GB to transfer so it took about 2 hours.
 
 ## Final words
 Now you have a clean Windows 11 setup with all of your personal files! 
