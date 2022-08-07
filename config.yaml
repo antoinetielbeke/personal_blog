@@ -1,7 +1,7 @@
 baseURL: "https://blog.twan.io"
 title: Antoine's blog
 paginate: 5
-theme: PaperMod
+theme: ["PaperMod", "plausible-hugo"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,6 +18,9 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Antoine's DevOps blog
     description: "ExampleSite description"
+    plausible:
+      enable: true
+      domain: blog.twan.io
     keywords: [Blog, Portfolio, Antoine Tielbeke,]
     author: Me
     # author: ["Me", "You"] # multiple authors
