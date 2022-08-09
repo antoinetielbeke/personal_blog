@@ -16,11 +16,12 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Antoine's DevOps blog
-    description: "ExampleSite description"
+    title: Antoine's blog
+    description: "Antoine Tielbek's blog"
     plausible:
       enable: true
       domain: blog.twan.io
+      gitstar: false
     keywords: [Blog, Portfolio, Antoine Tielbeke,]
     author: Me
     # author: ["Me", "You"] # multiple authors
@@ -28,6 +29,8 @@ params:
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
+    # sets ToC to float on left/right side
+    TocSide: 'left'
 
     ShowReadingTime: true
     ShowShareButtons: true

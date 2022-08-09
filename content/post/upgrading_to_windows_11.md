@@ -6,8 +6,8 @@ date: 2021-11-14T11:30:03+00:00
 tags: ["windows", "backup"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: false
-TocOpen: false
+showToc: true
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false
