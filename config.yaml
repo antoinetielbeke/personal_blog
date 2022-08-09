@@ -1,7 +1,7 @@
 baseURL: "https://blog.twan.io"
 title: Antoine's blog
 paginate: 5
-theme: ["PaperMod", "plausible-hugo"]
+theme: ["PaperModX", "plausible-hugo"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,6 +13,16 @@ buildExpired: false
 minify:
     disableXML: true
     minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+# module:
+#   imports:
+#     - path: github.com/reorx/hugo-PaperModX
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -44,6 +54,14 @@ params:
     hideSummary: false
     showtoc: false
     tocopen: false
+    EnableInstantClick: true
+
+    commentSystems:
+      remark42:
+        url: https://remark42.com/
+        site: reorx.github.io
+    defaultCommentSystems:
+      remark42: true
 
     # assets:
     #     # disableHLJS: true # to disable highlight.js
@@ -98,14 +116,13 @@ menu:
           name: categories
           url: /categories/
           weight: 10
+        - identifier: search
+          name: search
+          url: /search/
         - identifier: tags
           name: tags
           url: /tags/
           weight: 20
-        - identifier: Other blog
-          name: godutch
-          url: https://example.org
-          weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

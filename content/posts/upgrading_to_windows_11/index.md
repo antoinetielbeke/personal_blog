@@ -22,7 +22,7 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "/img/upgrading_to_windows_11/windows_11_logo.jpg" # image path/url
+    image: "windows_11_logo.jpg" # image path/url
     alt: "windows 11 logo" # alt text
     # caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -64,11 +64,11 @@ This is where file history shines. With Windows File history, a file level back-
 Open "File History or access it through the controlpanel with the following path: `Control Panel\All Control Panel Items\File History`
 Click Select `Select drive` and your avaiable disks for file history will show up. In my case, I have a NAS so I added it by clicking `Add network location`.
 
-![selecting your network drive in file history](/img/upgrading_to_windows_11/select_network_drive.png#center)
+![selecting your network drive in file history](select_network_drive.png)
 
 After I selected the drive I want to use for File History, it immediately starts backing up your personal files. This might take a while (for me, 300GB took about 2-3 hours).
 
-![file history is enabled](/img/upgrading_to_windows_11/network_drive_selected.png#center)
+![file history is enabled](network_drive_selected.png)
 
 ## 🐤 Creating the Windows 11 USB
 
@@ -82,9 +82,9 @@ When you boot from your new Windows 11 USB, you will see the usual install scree
 
 Open up File History and on the left menu click on `Restore personal files`. A new window will pop up and here you can see all of the folders on your back-up. Check if you have the most recent back-up (date is in the left top) and click on the big green restore button.
 
-![restore files with file history](/img/upgrading_to_windows_11/restore_files.png#center)
+![restore files with file history](restore_files.png)
 It will ask you if you want to replace the files in the destination, click on `Replace the files in the destination`.
-![replace files pop up window](/img/upgrading_to_windows_11/replace_files.png#center)
+![replace files pop up window](replace_files.png)
 This might take a while, I had 300GB to transfer so it took about 2 hours. Check if your files are restored correctly by random samlping to verify the files are restored.
 
 ## ✒️ Final words
